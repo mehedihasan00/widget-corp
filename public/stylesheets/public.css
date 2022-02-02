@@ -41,6 +41,10 @@ a:hover {
     padding: 1em;
     margin: 0;
 }
+#header a {
+    text-decoration: none;
+    color: white;
+}
 #main {
     height: 535px;
     width: 100%;
