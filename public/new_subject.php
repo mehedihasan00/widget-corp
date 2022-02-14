@@ -1,3 +1,4 @@
+<?php require_once("../includes/session.php"); ?>
 <?php require_once("../includes/db_connection.php"); ?>
 <?php require_once("../includes/functions.php"); ?>
 <?php include("../includes/layouts/header.php"); ?>
@@ -10,6 +11,7 @@
         ?>
     </div>
     <div id="page">
+        <?php echo message(); ?>
         <h2>Create Subject</h2>
         <form action="create_subject.php" method="post">
             <p>Menu name: 
